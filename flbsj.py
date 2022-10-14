@@ -18,7 +18,7 @@ import time
 import datetime as dt
 
 # Folder to find the list of files
-search_dir = # Please enter a valid folder path
+search_dir = '''Please enter a valid folder path'''
 
 # os.walk function to find the subfolders of given search_dir
 sub_folders = [x[0] for x in os.walk(search_dir)]
